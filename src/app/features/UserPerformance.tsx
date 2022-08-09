@@ -24,7 +24,7 @@ const FAKE_DATA = {
   ]
 }
 
-export default function UserMetrics () {
+export default function UserPerformance () {
   return <Chart
     title="Média de performance nos últimos 12 meses"
     data={FAKE_DATA}

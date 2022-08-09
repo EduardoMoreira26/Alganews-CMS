@@ -60,8 +60,7 @@ export default function Chart ({ data, title }: ChartProps) {
             data={data}
             options={options}
           />
-        : 
-        <NoData height={139} />
+        : <NoData height={139} />
     }
   </ChartWrapper>
 }
