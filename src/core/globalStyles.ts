@@ -1,4 +1,4 @@
-import { createGlobalStyle } from 'styled-components/macro';
+import { createGlobalStyle } from "styled-components/macro";
 
 export default createGlobalStyle`
     * {
@@ -9,5 +9,7 @@ export default createGlobalStyle`
 
     body {
         font-family: 'Lato', sans-serif;
+        background-color: #F3F8Fa;
+        color: #274060;
     }
 `;

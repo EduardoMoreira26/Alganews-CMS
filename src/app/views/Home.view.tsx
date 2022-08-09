@@ -1,8 +1,13 @@
 import usePageTitle from "../../core/hooks/usePageTitle"
+import DefaultLayout from "../layouts/Default"
 
-export default function Home () {
+export default function Home() {
   usePageTitle('Home')
-  return <div>
+  return <DefaultLayout>
     <h1>Home</h1>
-  </div>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo praesentium 
+      dolores non nihil dicta optio rem dolorum numquam reiciendis animi.
+    </p>
+  </DefaultLayout>
 }
