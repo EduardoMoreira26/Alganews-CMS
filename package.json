@@ -11,10 +11,10 @@
     "@types/jest": "^27.0.1",
     "@types/node": "^16.7.13",
     "@types/react-dom": "^18.0.6",
-    "chart.js": "^3.8.0",
+    "chart.js": "2.9.4",
     "polished": "^4.1.2",
     "react": "^18.2.0",
-    "react-chartjs-2": "^4.2.0",
+    "react-chartjs-2": "2.11.1",
     "react-dom": "^18.2.0",
     "react-router-dom": "^5.2.0",
     "react-scripts": "5.0.1",
@@ -49,7 +49,7 @@
     ]
   },
   "devDependencies": {
-    "@types/chart.js": "^2.9.37",
+    "@types/chart.js": "2.9.32",
     "@types/react": "^18.0.15",
     "@types/react-router-dom": "^5.1.7",
     "@types/react-table": "^7.7.0",
